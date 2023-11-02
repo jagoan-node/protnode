@@ -1,0 +1,452 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
+	
+}
+#parax {
+	background-color: rgba(0, 0, 0, 0.575);
+}
+.about {
+	background-color: rgb(46, 46, 46);
+}
+.skill {
+	background-color: rgb(161, 161, 161);
+}
+.bg-dark {
+	background-color: #212529 !important;
+}
+/* SVGS */
+.svg1 {
+	background-color: rgb(161, 161, 161);
+	padding-bottom: -30px;
+}
+.svg2 {
+	background-color: rgb(161, 161, 161);
+	padding-bottom: -30px;
+}
+.svg3 {
+	background-color: rgb(161, 161, 161);
+	padding-bottom: -30px;
+}
+.proj {
+	background-color: rgb(46, 46, 46);
+}
+.galery {
+	background-color: rgb(161, 161, 161);
+}
+
+.typewrite {
+	color: brown;
+}
+.teks a:link {
+	text-decoration: none;
+}
+.teks a:visited {
+	text-decoration: none;
+}
+.teks a:hover {
+	text-decoration: none;
+}
+
+.button-49,
+.button-49:after {
+	padding: 7px;
+	width: 200px;
+	height: 100px;
+	font-size: 20px;
+	background: linear-gradient(0deg, transparent 5%, brown 5%);
+	border: 0;
+	color: #fff;
+	letter-spacing: 3px;
+	box-shadow: 6px 4px 0px #ffffff;
+	outline: transparent;
+	position: relative;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	text-decoration: none;
+}
+.button-49:hover {
+	text-decoration: none;
+}
+.button-49:hover {
+	color: rgb(255, 255, 255);
+}
+.button-49:after {
+	--slice-0: inset(50% 50% 50% 50%);
+	--slice-1: inset(80% -6px 0 0);
+	--slice-2: inset(50% -6px 30% 0);
+	--slice-3: inset(10% -6px 85% 0);
+	--slice-4: inset(40% -6px 43% 0);
+	--slice-5: inset(80% -6px 5% 0);
+	content: "Hayolo";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(
+		45deg,
+		transparent 3%,
+		#ffffff 3%,
+		#ffffff 5%,
+		brown 5%
+	);
+	text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #ffffff;
+	clip-path: var(--slice-0);
+}
+
+.button-49:hover:after {
+	animation: 1s glitch;
+	animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+	0% {
+		clip-path: var(--slice-1);
+		transform: translate(-20px, -10px);
+	}
+	10% {
+		clip-path: var(--slice-3);
+		transform: translate(10px, 10px);
+	}
+	20% {
+		clip-path: var(--slice-1);
+		transform: translate(-10px, 10px);
+	}
+	30% {
+		clip-path: var(--slice-3);
+		transform: translate(0px, 5px);
+	}
+	40% {
+		clip-path: var(--slice-2);
+		transform: translate(-5px, 0px);
+	}
+	50% {
+		clip-path: var(--slice-3);
+		transform: translate(5px, 0px);
+	}
+	60% {
+		clip-path: var(--slice-4);
+		transform: translate(5px, 10px);
+	}
+	70% {
+		clip-path: var(--slice-2);
+		transform: translate(-10px, 10px);
+	}
+	80% {
+		clip-path: var(--slice-5);
+		transform: translate(20px, -10px);
+	}
+	90% {
+		clip-path: var(--slice-1);
+		transform: translate(-10px, 0px);
+	}
+	100% {
+		clip-path: var(--slice-1);
+		transform: translate(0);
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container2 {
+		padding-top: 25px;
+	}
+}
+.um {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.301);
+}
+#tes {
+	margin: 10px;
+	transition: 0.3s ease-in-out;
+	align-items: center;
+}
+#tes {
+	transition: 0.3s ease-in-out;
+	align-items: center;
+}
+#tes + #tes {
+	margin-left: -30px;
+	align-items: center;
+}
+#tes:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+
+#tes:hover ~ #tes {
+	z-index: 1;
+	translate: 60px;
+}
+#tes {
+	background-color: rgb(107, 107, 107);
+	box-shadow: 0px, 4px, 4px rgba(255, 255, 255, 0.603);
+}
+
+#tes2 {
+	background-color: rgb(26, 26, 26);
+	transition: 0.3s ease-in-out;
+}
+
+#tes2:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale();
+	-moz-transform: scale();
+	-ms-transform: scale();
+	-o-transform: scale();
+}
+
+.carousel-indicators {
+	align-items: center;
+	justify-content: center;
+}
+.carousel-indicators li {
+	background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators {
+	bottom: -0px;
+}
+/* center carousel indicator */
+.carousel-indicators {
+	margin-top: -30px;
+	margin-left: 0px !important;
+}
+.carousel .item {
+	color: #747d89;
+	min-height: 325px;
+	text-align: center;
+}
+.skill .container {
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+#myCarousel {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	margin: auto 0;
+	max-height: 100px;
+	border-radius: 4px;
+	opacity: 0.8;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+#myCarousel {
+	margin-bottom: 0;
+	max-height: 250px;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+	opacity: 1;
+}
+.carousel-control-prev i,
+.carousel-control-next i {
+	font-size: 36px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin: -70px 0 0 0;
+	z-index: 5;
+	left: 0;
+	right: 0;
+	color: #fff;
+	text-shadow: none;
+	font-weight: bold;
+}
+.carousel-control-prev i {
+	margin-left: -2px;
+}
+.carousel-control-next i {
+	margin-right: -4px;
+}
+
+.float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: rgb(92, 92, 92);
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	box-shadow: 2px 2px 3px rgb(0, 0, 0);
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+}
+.float i {
+	margin-top: 22px;
+}
+.float:hover i {
+	transform: scale(1.2);
+	transition: all 0.3s ease-in-out;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.float:hover i {
+	rotate: 44deg;
+	transition: all 0.3s ease-out;
+}
+.float:hover {
+	transform: scale(1.2);
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.button {
+	transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+	-moz-transition: all ease-in-out 500ms;
+	-ms-transition: all ease-in-out 500ms;
+	-o-transition: all ease-in-out 500ms;
+}
+
+.animate-in {
+	-webkit-animation: fadeIn 0.7s ease-in;
+	animation: fadeIn 0.7s ease-in;
+	background: #000;
+}
+
+.animate-out {
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+	opacity: 0;
+	-moz-transition: opacity 1s;
+	-ms-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	background-color: #000;
+}
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.skill .container .row {
+	width: none !important;
+}
+
+.imgov {
+	position: absolute;
+	display: flex;
+	align-items: end;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	width: 98%;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+	overflow: hidden;
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+	-webkit-transition: all ease-in-out 0.5s;
+	-moz-transition: all ease-in-out 0.5s;
+	-ms-transition: all ease-in-out 0.5s;
+	-o-transition: all ease-in-out 0.5s;
+}
+
+.imgov p {
+	color: rgb(211, 211, 211);
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.warpi:hover .imgov {
+	visibility: visible;
+	opacity: 1;
+}
+warpi {
+	padding: 0 !important;
+}
+
+.modal-open {
+	overflow-y: scroll !important;
+	padding-right: 0 !important;
+}
+
+.modal-padding-overlap[style] {
+    padding-right:0 !important;
+    padding-left: 0 !important;
+}
+
+body::-webkit-scrollbar {
+    width: 0.2em;
+}
+ 
+body::-webkit-scrollbar-track {
+	background: #242424;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: brown;
+  outline: 1px solid rgb(73, 0, 0);
+}
+
+.teks {
+	transition: all 0.5s ease-in-out;
+
+}
+.teks a:hover {
+	color: rgb(255, 0, 0);
+	transition: all 0.5s ease-in-out;
+	
+}
